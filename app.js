@@ -30,6 +30,6 @@ let usercard = document.getElementById('usercard')
 
 let p = document.createElement('p')
 
-p.textInner = `${tg.initDataUnsafe.first_name} ${tg.initDataUnsafe.last_name}`
+p.textInner = `${tg.initDataUnsafe.user.first_name} ${tg.initDataUnsafe.user.last_name}`
 
 usercard.append(p)
