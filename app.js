@@ -25,10 +25,10 @@ Telegram.WebApp.onEvent('mainButtonClicked', () => {
     tg.sendData(item)
 })
 
-
 let usercard = document.getElementById('usercard')
 
 let p = document.createElement('p')
+console.log(tg)
 
 p.textInner = `${tg.initDataUnsafe.user.first_name} ${tg.initDataUnsafe.user.last_name}`
 
